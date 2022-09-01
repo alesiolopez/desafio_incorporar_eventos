@@ -1,5 +1,7 @@
+//creo y guardo en una variable al elemento con id btn_enviar
 let boton = document.getElementById("btn_enviar");
 
+//escucho al elemento y le aplico la función enviar.
 boton.addEventListener("click", enviar);
 
 //escucho el evento del teclado y si presiona TECLA ENTER activa la función enviar()
@@ -13,7 +15,6 @@ input_producto.addEventListener("keydown", function(e){
 
 
 //Creo la función "enviar", para poder realizar las acciones en el boton. Podría también crear un addEventListener e ingresar todo el código en la función anonima. O sea: boton.addEventListener("click", function(){...CODIGO...});
-
 function enviar(){
     //se obtienen los elementos por ID y se guardan en una variable..
     let producto = document.getElementById('producto');
