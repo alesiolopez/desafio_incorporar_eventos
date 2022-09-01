@@ -1,0 +1,44 @@
+.notificacion{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: rgba(255, 0, 0, 0.7);
+    width: 30%;
+    padding: 10px;
+}
+
+.contenedor{
+    position: relative;
+    background: rgba(0, 17, 255, 0.1);
+    width: 70%;
+    max-width: 500px;
+    min-width: 400px;
+    height: 100vh; 
+}
+
+.ul-contenedor{
+    color: blue;
+    font-family: verdana;
+    padding: 0;
+    margin: 0;
+}
+
+.lista{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 90%;
+    border: 2px white solid;
+}
+
+.btn-borrar{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+
+.background{
+    background: rgba(0, 17, 255, 0.1);
+    border: 1px white solid;
+}
+
